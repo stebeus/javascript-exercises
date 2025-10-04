@@ -12,9 +12,9 @@
 const firstName = 'Carlos';
 const lastName = 'Stevenson';
 const birthYear = 1947;
-const currentYear = 1965;
+const thisYear = 1965;
 const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${
-  currentYear - birthYear
+  thisYear - birthYear
 } years old.`;
 
 // Do not change this
