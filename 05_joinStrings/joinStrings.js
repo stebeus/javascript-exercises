@@ -13,6 +13,9 @@ const firstName = 'Carlos';
 const lastName = 'Stevenson';
 const birthYear = 1965;
 const currentYear = 1965;
+const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${
+  currentYear - birthYear
+} years old.`;
 
 // Do not change this
 module.exports = {
