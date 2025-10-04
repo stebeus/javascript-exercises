@@ -11,7 +11,7 @@
 
 const firstName = 'Carlos';
 const lastName = 'Stevenson';
-const fullName = firstName + lastName;
+const fullName = firstName + '' + lastName;
 
 const birthYear = 1947;
 const thisYear = 1965;
