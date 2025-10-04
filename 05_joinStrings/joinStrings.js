@@ -11,6 +11,8 @@
 
 const firstName = 'Carlos';
 const lastName = 'Stevenson';
+const birthYear = 1965;
+const currentYear = 1965;
 
 // Do not change this
 module.exports = {
