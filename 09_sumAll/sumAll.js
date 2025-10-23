@@ -5,8 +5,6 @@ const sumAll = function (numOne, numTwo) {
     return 'ERROR';
   } else if (numOne < 0 || numTwo < 0) {
     return 'ERROR';
-  } else if (numOne === '' && numTwo === '') {
-    return 'ERROR';
   } else if (numOne > numTwo) {
     for (let i = numOne; i >= numTwo; i--) {
       numCollection.push(i);
@@ -18,11 +16,9 @@ const sumAll = function (numOne, numTwo) {
   }
 
   return numCollection.reduce((totalSum, currentNum) => totalSum + currentNum);
-
-  // return numCollection.reduce((a, b) => a + b);
 };
 
-console.log(sumAll(2.5, 2));
+console.log(sumAll(10, 5));
 
 // Do not edit below this line
 module.exports = sumAll;
