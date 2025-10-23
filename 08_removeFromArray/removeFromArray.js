@@ -5,7 +5,7 @@ const removeFromArray = function (arr, ...indexes) {
     arr.splice(indexOf, 1);
   }
 
-  return arr.filter((x) => !indexes.includes(x));
+  return arr.filter((unselectedIndex) => !indexes.includes(unselectedIndex));
 };
 
 console.log(removeFromArray([1, 2, 3, 4, 5]));
