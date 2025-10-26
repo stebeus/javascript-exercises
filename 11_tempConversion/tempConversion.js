@@ -4,9 +4,14 @@ const convertToCelsius = function (temperature) {
   return roundedTemperature;
 };
 
-const convertToFahrenheit = function () {};
+const convertToFahrenheit = function (temperature) {
+  const fahrenheit = (temperature * 9) / 5 + 32;
+  const roundedTemperature = Math.round(fahrenheit * 10) / 10;
+  return roundedTemperature;
+};
 
-console.log(convertToCelsius(57));
+console.log(convertToCelsius(32));
+console.log(convertToFahrenheit(-10));
 
 // Do not edit below this line
 module.exports = {
