@@ -26,13 +26,24 @@ const power = function (numOne, numTwo) {
   return numOne ** numTwo;
 };
 
-const factorial = function () {};
+const factorial = function (num) {
+  /**
+   * Get the number
+   * Create a numbers array variable
+   * If number = 0, push 1 to numbers
+   * For iteration equal number, decrement it up to zero
+   * For each iteration, push it to numbers
+   * Finally, reduce numbers by multiplying accumulated number with current number
+   */
+};
 
 console.log(add(1, 5));
 console.log(subtract(19, 5));
 console.log(sum([]));
 console.log(sum([1, 2, 3, 10]));
 console.log(multiply([2, 5, 10]));
+console.log(factorial(0));
+console.log(factorial(5));
 
 // Do not edit below this line
 module.exports = {
