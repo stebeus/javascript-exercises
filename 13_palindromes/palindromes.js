@@ -1,5 +1,8 @@
 const palindromes = function (str) {
-  return str.toLowerCase().replace(/[^0-9a-z]/gi, "");
+  const originalStr = str.toLowerCase().replace(/[^0-9a-z]/gi, "");
+  const reverseStr = originalStr.split("").reverse().join("");
+  console.log(originalStr);
+  console.log(reverseStr);
 };
 
 console.log(palindromes("[!5 Race? -> CAR,  5...]"));
