@@ -1,4 +1,8 @@
-const palindromes = function (str) {};
+const palindromes = function (str) {
+  return str.toLowerCase().replace(/[^0-9a-z]/gi, "");
+};
+
+console.log(palindromes("[!5 Race? -> CAR,  5...]"));
 
 /**
  * Get the string
