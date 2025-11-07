@@ -11,15 +11,11 @@ const sum = function (numArr) {
     return 0;
   }
 
-  return numArr.reduce(
-    (accumulator, currentValue) => accumulator + currentValue
-  );
+  return numArr.reduce((accNum, curNum) => accNum + curNum);
 };
 
 const multiply = function (numArr) {
-  return numArr.reduce(
-    (accumulator, currentValue) => accumulator * currentValue
-  );
+  return numArr.reduce((accNum, curNum) => accNum * curNum);
 };
 
 const power = function (numOne, numTwo) {
