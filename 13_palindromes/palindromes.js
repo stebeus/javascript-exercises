@@ -1,11 +1,18 @@
 const palindromes = function (str) {
   const originalStr = str.toLowerCase().replace(/[^0-9a-z]/gi, "");
   const reverseStr = originalStr.split("").reverse().join("");
-  console.log(originalStr);
-  console.log(reverseStr);
+
+  if (originalStr === reverseStr) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 console.log(palindromes("[!5 Race? -> CAR,  5...]"));
+console.log(palindromes("Animal loots foliated detail of stool lamina"));
+console.log(palindromes("Tacos"));
+console.log(palindromes("N00b?"));
 
 /**
  * Get the string
