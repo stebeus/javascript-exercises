@@ -35,6 +35,14 @@ const factorial = function (num) {
    * For each iteration, push it to numbers
    * Finally, reduce numbers by multiplying accumulated number with current number
    */
+
+  const nums = [];
+
+  if (num === 0) {
+    nums.push(1);
+  }
+
+  return nums;
 };
 
 console.log(add(1, 5));
@@ -44,6 +52,7 @@ console.log(sum([1, 2, 3, 10]));
 console.log(multiply([2, 5, 10]));
 console.log(factorial(0));
 console.log(factorial(5));
+// console.log(factorial(5));
 
 // Do not edit below this line
 module.exports = {
