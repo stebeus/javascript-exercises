@@ -42,7 +42,11 @@ const factorial = function (num) {
     nums.push(1);
   }
 
-  return nums;
+  for (let i = num; i > 0; i--) {
+    nums.push(i);
+  }
+
+  return nums.reduce((accNum, curNum) => accNum * curNum);
 };
 
 console.log(add(1, 5));
@@ -52,7 +56,6 @@ console.log(sum([1, 2, 3, 10]));
 console.log(multiply([2, 5, 10]));
 console.log(factorial(0));
 console.log(factorial(5));
-// console.log(factorial(5));
 
 // Do not edit below this line
 module.exports = {
