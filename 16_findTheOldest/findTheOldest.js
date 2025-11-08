@@ -1,29 +1,4 @@
-const findTheOldest = function (people) {
-  /**
-   * Get the people
-   * Create an empty age list array
-   * For each person of people:
-   *   Calculate death year minus birth year
-   *   Push result to age list
-   * Return maximum age
-   */
-
-  const ageList = [];
-
-  for (let age of people) {
-    ageList.push(age.yearOfDeath - age.yearOfBirth);
-  }
-
-  const oldestAge = Math.max(...ageList);
-
-  for (let person of people) {
-    let personAge = (person.age = person.yearOfDeath - person.yearOfBirth);
-
-    if (personAge === oldestAge) {
-      return person;
-    }
-  }
-};
+const findTheOldest = function (people) {};
 
 const people = [
   {
