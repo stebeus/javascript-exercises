@@ -1,4 +1,12 @@
-const findTheOldest = function (people) {};
+const findTheOldest = function (people) {
+  /**
+   * Get people
+   * Store empty age list
+   * For each person, push calculated age to the list
+   * Store oldest age variable
+   * For each person, evaluate age with oldest age and return the oldest person
+   */
+};
 
 const people = [
   {
