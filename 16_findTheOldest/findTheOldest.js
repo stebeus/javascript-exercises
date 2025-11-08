@@ -16,7 +16,11 @@ const findTheOldest = function (people) {
 
   const oldestAge = Math.max(...ageList);
 
-  return oldestAge;
+  for (person of people) {
+    if (person.age === oldestAge) {
+      return person;
+    }
+  }
 };
 
 const people = [
