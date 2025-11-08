@@ -14,7 +14,9 @@ const findTheOldest = function (people) {
     ageList.push(person.age);
   }
 
-  return ageList;
+  const oldestAge = Math.max(...ageList);
+
+  return oldestAge;
 };
 
 const people = [
