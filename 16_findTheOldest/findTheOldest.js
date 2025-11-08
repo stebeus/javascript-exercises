@@ -10,8 +10,8 @@ const findTheOldest = function (people) {
 
   const ageList = [];
 
-  for (let person of people) {
-    ageList.push(person.yearOfDeath - person.yearOfBirth);
+  for (let age of people) {
+    ageList.push(age.yearOfDeath - age.yearOfBirth);
   }
 
   return ageList;
