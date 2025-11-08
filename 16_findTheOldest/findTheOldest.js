@@ -1,3 +1,8 @@
+function getAge(deathYear, birthYear) {
+  const currentYear = new Date().getFullYear();
+
+  return currentYear;
+}
 /**
  * Get death year and birth year
  * Store current year in a variable
