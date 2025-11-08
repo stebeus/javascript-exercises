@@ -24,8 +24,7 @@ const findTheOldest = function (people) {
 const people = [
   {
     name: "Carly",
-    yearOfBirth: 1942,
-    yearOfDeath: 1970,
+    yearOfBirth: 2018,
   },
   {
     name: "Ray",
@@ -36,6 +35,10 @@ const people = [
     name: "Jane",
     yearOfBirth: 1912,
     yearOfDeath: 1941,
+  },
+  {
+    name: "Jacob",
+    yearOfBirth: 1023,
   },
 ];
 
