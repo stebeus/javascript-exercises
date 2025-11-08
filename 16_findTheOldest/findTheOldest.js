@@ -3,7 +3,10 @@ const findTheOldest = function (people) {
    * Get people
    * Store empty age list
    * For each person, push calculated age to the list
-   * Store oldest age variable
+   * Filter oldest person by:
+   *   Storing oldest age in variable
+   *   Comparing person age with oldest age
+   * Return oldest person
    */
 
   const ageList = [];
