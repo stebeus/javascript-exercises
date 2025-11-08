@@ -3,10 +3,8 @@ const findTheOldest = function (people) {
    * Get people
    * Store empty age list
    * For each person, push calculated age to the list
-   * Filter oldest person by:
-   *   Storing oldest age in variable
-   *   Comparing person age with oldest age
-   * Return oldest person
+   * Store oldest age variable
+   * For each person, compare if age is equal to oldest age and return the oldest person
    */
 
   const ageList = [];
@@ -16,12 +14,11 @@ const findTheOldest = function (people) {
     ageList.push(person.age);
   }
 
-  const oldestPerson = people.filter((person) => {
-    const oldestAge = Math.max(...ageList);
-    if (person.age === oldestAge) return person;
-  });
+  const oldestAge = Math.max(...ageList);
 
-  return oldestPerson;
+  for (person of people) {
+    if (person.age === oldestAge) return person;
+  }
 };
 
 const people = [
