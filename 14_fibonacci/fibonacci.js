@@ -7,9 +7,10 @@ const fibonacci = function (fibonacciIndex) {
    * Return the number of that index
    */
 
-  const fibonacciSequence = [];
+  const fibonacciSequence = [0, 1, 1];
 
-  return fibonacciSequence[fibonacciIndex];
+  return fibonacciSequence;
+  // return fibonacciSequence[fibonacciIndex];
 };
 
 console.log(fibonacci(6));
