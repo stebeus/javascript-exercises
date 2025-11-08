@@ -6,6 +6,15 @@ const findTheOldest = function (people) {
    * Store oldest age variable
    * For each person, evaluate age with oldest age and return the oldest person
    */
+
+  const ageList = [];
+
+  for (person of people) {
+    person.age = person.yearOfDeath - person.yearOfBirth;
+    ageList.push(person.age);
+  }
+
+  return ageList;
 };
 
 const people = [
