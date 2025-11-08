@@ -1,3 +1,10 @@
+/**
+ * Get death year and birth year
+ * Store current year in a variable
+ * If death year has no value, death year will be current year
+ * Return death year minus birth year
+ */
+
 const findTheOldest = function (people) {
   /**
    * Get people
