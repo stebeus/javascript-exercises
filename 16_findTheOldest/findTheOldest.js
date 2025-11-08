@@ -1,4 +1,11 @@
 function getAge(deathYear, birthYear) {
+  /**
+   * Get death year and birth year
+   * Store current year in a variable
+   * If death year has no value, death year will be current year
+   * Return death year minus birth year
+   */
+
   const currentYear = new Date().getFullYear();
 
   if (!deathYear) {
@@ -7,12 +14,6 @@ function getAge(deathYear, birthYear) {
 
   return deathYear - birthYear;
 }
-/**
- * Get death year and birth year
- * Store current year in a variable
- * If death year has no value, death year will be current year
- * Return death year minus birth year
- */
 
 const findTheOldest = function (people) {
   /**
