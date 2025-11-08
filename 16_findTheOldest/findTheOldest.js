@@ -1,7 +1,11 @@
 function getAge(deathYear, birthYear) {
   const currentYear = new Date().getFullYear();
 
-  return currentYear;
+  if (!deathYear) {
+    deathYear = currentYear;
+  }
+
+  return deathYear - birthYear;
 }
 /**
  * Get death year and birth year
