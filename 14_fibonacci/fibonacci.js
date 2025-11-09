@@ -20,7 +20,7 @@ const fibonacci = function (fibonacciIndex) {
   return fibonacciSequence[fibonacciIndex];
 };
 
-console.log(fibonacci(6));
+console.log(fibonacci("6"));
 
 // Do not edit below this line
 module.exports = fibonacci;
