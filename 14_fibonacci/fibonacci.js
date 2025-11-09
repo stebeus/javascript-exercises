@@ -20,13 +20,17 @@ const fibonacci = function (fibonacciMember) {
   const goldenRatio = (1 + sqrtOfFive) / 2;
   const conjugate = (1 - sqrtOfFive) / 2;
 
+  const fibonacciNumber = Math.round(
+    (goldenRatio ** num - conjugate ** num) / sqrtOfFive
+  );
+
   if (num < 0) {
     return "OOPS";
   } else if (num <= 1) {
     return num;
   }
 
-  return typeof num;
+  return fibonacciNumber;
 };
 
 console.log(fibonacci(10));
