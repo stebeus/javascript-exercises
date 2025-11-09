@@ -1,4 +1,15 @@
-const fibonacci = function () {};
+const fibonacci = function () {
+  /**
+   * Get the number
+   * Store in variables:
+   *   square root of 5
+   *   golden ratio, which is (1 + square root of 5) / 2
+   *   conjugate, which is (1 - square root of 5) / 2
+   * Store result in variable:
+   *   (golden ratio^n - conjugate^n) / square root of 5
+   * Return result
+   */
+};
 
 console.log(fibonacci(10));
 console.log(fibonacci(6));
