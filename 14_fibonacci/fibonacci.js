@@ -1,16 +1,8 @@
 const fibonacci = function (fibonacciIndex) {
   /**
    * Get the index
-   * Create an array
-   * Loop the sequence up to the index
-   * Push it to the array
-   * Return the number of that index
+   * Return the item indicated by index
    */
-
-  const fibonacciSequence = [0, 1, 1];
-
-  return fibonacciSequence;
-  // return fibonacciSequence[fibonacciIndex];
 };
 
 console.log(fibonacci(6));
