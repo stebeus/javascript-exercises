@@ -1,6 +1,10 @@
 const fibonacci = function () {
   /**
    * Get the number
+   * Address the issues:
+   *   string conversion
+   *   negative rejection
+   *   number smaller or equal to one
    * Store in variables:
    *   square root of 5
    *   golden ratio, which is (1 + square root of 5) / 2
