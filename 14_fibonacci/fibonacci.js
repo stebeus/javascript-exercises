@@ -1,4 +1,4 @@
-const fibonacci = function (fibonacciIndex) {
+const fibonacci = function (numIndex) {
   /**
    * Get the index
    * Store an empty Fibonacci sequence array
@@ -9,15 +9,15 @@ const fibonacci = function (fibonacciIndex) {
 
   const fibonacciSequence = [];
 
-  if (fibonacciIndex < 0) {
+  if (numIndex < 0) {
     return "OOPS";
   }
 
-  for (let num = 0; num <= fibonacciIndex; num++) {
+  for (let num = 0; num <= numIndex; num++) {
     fibonacciSequence.push(num);
   }
 
-  return fibonacciSequence[fibonacciIndex];
+  return fibonacciSequence[numIndex];
 };
 
 console.log(fibonacci("6"));
