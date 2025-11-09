@@ -20,7 +20,10 @@ const fibonacci = function (numIndex) {
   return fibonacciSequence[numIndex];
 };
 
+console.log(fibonacci(12));
 console.log(fibonacci("6"));
+console.log(fibonacci("0"));
+console.log(fibonacci("-15"));
 
 // Do not edit below this line
 module.exports = fibonacci;
