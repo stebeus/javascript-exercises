@@ -16,6 +16,12 @@ const fibonacci = function (fibonacciMember) {
 
   const num = parseInt(fibonacciMember);
 
+  if (num < 0) {
+    return "OOPS";
+  } else if (num <= 1) {
+    return num;
+  }
+
   return typeof num;
 };
 
