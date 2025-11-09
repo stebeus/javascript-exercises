@@ -1,4 +1,4 @@
-const fibonacci = function () {
+const fibonacci = function (fibonacciMember) {
   /**
    * Get the number
    * Address the issues:
@@ -13,6 +13,10 @@ const fibonacci = function () {
    *   (golden ratio^n - conjugate^n) / square root of 5
    * Return result
    */
+
+  const num = parseInt(fibonacciMember);
+
+  return typeof num;
 };
 
 console.log(fibonacci(10));
