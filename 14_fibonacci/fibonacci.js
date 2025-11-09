@@ -16,6 +16,10 @@ const fibonacci = function (fibonacciMember) {
 
   const num = parseInt(fibonacciMember);
 
+  const sqrtOfFive = Math.sqrt(5);
+  const goldenRatio = (1 + sqrtOfFive) / 2;
+  const conjugate = (1 - sqrtOfFive) / 2;
+
   if (num < 0) {
     return "OOPS";
   } else if (num <= 1) {
